@@ -1,0 +1,23 @@
+#titre-principal {
+  color: rgba(135, 35, 228, 0.525);
+}
+
+.titre {
+  color: blue;
+}
+
+p {
+  font-size: 16px;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  text-align: justify;
+}
+
+p span {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+}
