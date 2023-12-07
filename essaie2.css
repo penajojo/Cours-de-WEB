@@ -5,13 +5,11 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 body {
   background-color: antiquewhite;
   padding: 80px 80 px;
   height: 200vh;
 }
-
 header {
   background-color: antiquewhite;
   display: flex;
@@ -24,7 +22,6 @@ header {
   border-bottom: 2px solid rosybrown;
   margin-bottom: 20px;
 }
-
 header nav {
   display: flex;
   gap: 60px;
@@ -42,32 +39,27 @@ a:hover {
 a {
   color: rosybrown;
   text-decoration: none;
-  /* justify-items: legacy; */
-  /* flex-direction: row; */
 }
-
-p {
+.firstpara {
   color: rosybrown;
-  padding: 0;
-  margin: 20px;
+  margin-top: 30px;
   text-align: center;
 }
-.carre-blanc {
-  margin: 90px 0px;
+div {
+  float: left;
+  width: 100%;
+  margin: 100px 0;
   background-color: white;
-  padding: 40px 80px 250px 80px;
-  display: flex;
-  flex-direction: column;
-}
-
-.titre2 {
   color: rosybrown;
-  font-size: x-large;
 }
 
-.logo1 {
-  display: flex;
+.liens {
+  float: left;
+  width: 25%;
+  /* display: flex; */
+  background-color: blue;
+  padding: 10px;
+  margin-top: 250px;
 
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* gap: 50px; */
 }
